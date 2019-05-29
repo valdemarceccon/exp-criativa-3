@@ -35,7 +35,7 @@ namespace BatalhaNavalUI
                     btn.FlatStyle = FlatStyle.Flat;
                     btn.FlatAppearance.MouseOverBackColor = Color.Transparent;
                     btn.FlatAppearance.MouseDownBackColor = Color.Transparent;
-                    btn.FlatAppearance.BorderSize = 1;
+                    btn.FlatAppearance.BorderSize = 0;
                     btn.BackColor = Color.Transparent;
                     btn.Size = tamanhoCelula;
                     btn.Click += new AcaoTiro(x, y).atirar;
