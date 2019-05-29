@@ -1,0 +1,10 @@
+C:\Users\Valdemar\source\repos\BatalhaNaval\BatalhaNavalUI\bin\Debug\BatalhaNavalUI.exe.config
+C:\Users\Valdemar\source\repos\BatalhaNaval\BatalhaNavalUI\bin\Debug\BatalhaNavalUI.exe
+C:\Users\Valdemar\source\repos\BatalhaNaval\BatalhaNavalUI\bin\Debug\BatalhaNavalUI.pdb
+C:\Users\Valdemar\source\repos\BatalhaNaval\BatalhaNavalUI\obj\Debug\BatalhaNavalUI.csprojAssemblyReference.cache
+C:\Users\Valdemar\source\repos\BatalhaNaval\BatalhaNavalUI\obj\Debug\BatalhaNavalUI.Form1.resources
+C:\Users\Valdemar\source\repos\BatalhaNaval\BatalhaNavalUI\obj\Debug\BatalhaNavalUI.Properties.Resources.resources
+C:\Users\Valdemar\source\repos\BatalhaNaval\BatalhaNavalUI\obj\Debug\BatalhaNavalUI.csproj.GenerateResource.cache
+C:\Users\Valdemar\source\repos\BatalhaNaval\BatalhaNavalUI\obj\Debug\BatalhaNavalUI.csproj.CoreCompileInputs.cache
+C:\Users\Valdemar\source\repos\BatalhaNaval\BatalhaNavalUI\obj\Debug\BatalhaNavalUI.exe
+C:\Users\Valdemar\source\repos\BatalhaNaval\BatalhaNavalUI\obj\Debug\BatalhaNavalUI.pdb
