@@ -8,3 +8,16 @@ C:\Users\Valdemar\source\repos\BatalhaNaval\BatalhaNavalUI\obj\Debug\BatalhaNava
 C:\Users\Valdemar\source\repos\BatalhaNaval\BatalhaNavalUI\obj\Debug\BatalhaNavalUI.csproj.CoreCompileInputs.cache
 C:\Users\Valdemar\source\repos\BatalhaNaval\BatalhaNavalUI\obj\Debug\BatalhaNavalUI.exe
 C:\Users\Valdemar\source\repos\BatalhaNaval\BatalhaNavalUI\obj\Debug\BatalhaNavalUI.pdb
+C:\Users\Valdemar Ceccon\Source\Repos\exp-criativa-3\BatalhaNavalUI\bin\Debug\BatalhaNavalUI.exe.config
+C:\Users\Valdemar Ceccon\Source\Repos\exp-criativa-3\BatalhaNavalUI\bin\Debug\BatalhaNavalUI.exe
+C:\Users\Valdemar Ceccon\Source\Repos\exp-criativa-3\BatalhaNavalUI\bin\Debug\BatalhaNavalUI.pdb
+C:\Users\Valdemar Ceccon\Source\Repos\exp-criativa-3\BatalhaNavalUI\obj\Debug\BatalhaNavalUI.csprojAssemblyReference.cache
+C:\Users\Valdemar Ceccon\Source\Repos\exp-criativa-3\BatalhaNavalUI\obj\Debug\BatalhaNavalUI.Form1.resources
+C:\Users\Valdemar Ceccon\Source\Repos\exp-criativa-3\BatalhaNavalUI\obj\Debug\BatalhaNavalUI.Properties.Resources.resources
+C:\Users\Valdemar Ceccon\Source\Repos\exp-criativa-3\BatalhaNavalUI\obj\Debug\BatalhaNavalUI.csproj.GenerateResource.cache
+C:\Users\Valdemar Ceccon\Source\Repos\exp-criativa-3\BatalhaNavalUI\obj\Debug\BatalhaNavalUI.csproj.CoreCompileInputs.cache
+C:\Users\Valdemar Ceccon\Source\Repos\exp-criativa-3\BatalhaNavalUI\obj\Debug\BatalhaNavalUI.exe
+C:\Users\Valdemar Ceccon\Source\Repos\exp-criativa-3\BatalhaNavalUI\obj\Debug\BatalhaNavalUI.pdb
+C:\Users\Valdemar Ceccon\Source\Repos\exp-criativa-3\BatalhaNavalUI\bin\Debug\BatalhaNavalGameLogic.dll
+C:\Users\Valdemar Ceccon\Source\Repos\exp-criativa-3\BatalhaNavalUI\bin\Debug\BatalhaNavalGameLogic.pdb
+C:\Users\Valdemar Ceccon\Source\Repos\exp-criativa-3\BatalhaNavalUI\obj\Debug\BatalhaNavalUI.csproj.CopyComplete
