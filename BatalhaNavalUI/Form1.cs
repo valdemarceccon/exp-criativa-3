@@ -50,6 +50,7 @@ namespace BatalhaNavalUI
             PictureBox btn = new PictureBox();
             btn.BackColor = Color.Transparent;
             btn.Size = tamanho;
+            btn.SizeMode = PictureBoxSizeMode.StretchImage;
 
             btn.Click += (o, s) => atirar(player, btn, x, y);
             btn.MouseEnter += (o, s) => btn.BackColor = Color.Red;
@@ -78,7 +79,7 @@ namespace BatalhaNavalUI
         {
             if (player.temBarco(x, y))
             {
-                btn.Image = BatalhaNavalUI.Properties.Resources.barco101;
+                btn.Image = BatalhaNavalUI.Properties.Resources.explosão;
             }
             else
             {

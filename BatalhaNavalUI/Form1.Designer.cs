@@ -101,7 +101,7 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = global::BatalhaNavalUI.Properties.Resources.barco501;
-            this.pictureBox1.Location = new System.Drawing.Point(450, 41);
+            this.pictureBox1.Location = new System.Drawing.Point(447, 45);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(132, 33);
             this.pictureBox1.TabIndex = 2;
