@@ -101,5 +101,10 @@ namespace BatalhaNavalUI
                 
             }
         }
+
+        private void B_rotacao_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
