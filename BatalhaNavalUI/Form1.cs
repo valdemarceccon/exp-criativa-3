@@ -92,18 +92,37 @@ namespace BatalhaNavalUI
             Console.WriteLine();
         }
 
+        bool vertical;
+
         private void PictureBox1_MouseDown(object sender, MouseEventArgs e)
         {
             var img = pictureBox1.Image;
+
+            
+            
             if (img == null) return;
             if (DoDragDrop(img, DragDropEffects.Move) == DragDropEffects.Move)
             {
                 
             }
+            
         }
 
+
+        
         private void B_rotacao_Click(object sender, EventArgs e)
         {
+            vertical = !vertical;
+
+            if (vertical == true)
+            {
+                pictureBox1.Image.RotateFlip(RotateFlipType.Rotate90FlipNone);
+            }
+            if (vertical == false)
+            {
+                pictureBox1.Image.RotateFlip(RotateFlipType.Rotate270FlipNone);
+            }
+            pictureBox1.Refresh();
 
         }
     }
