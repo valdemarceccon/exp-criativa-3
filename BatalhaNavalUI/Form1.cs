@@ -116,13 +116,13 @@ namespace BatalhaNavalUI
 
             if (vertical == true)
             {
-                pictureBox1.Image.RotateFlip(RotateFlipType.Rotate90FlipNone);
+                barco1.Image.RotateFlip(RotateFlipType.Rotate90FlipNone);
             }
             if (vertical == false)
             {
-                pictureBox1.Image.RotateFlip(RotateFlipType.Rotate270FlipNone);
+                barco1.Image.RotateFlip(RotateFlipType.Rotate270FlipNone);
             }
-            pictureBox1.Refresh();
+            barco1.Refresh();
 
         }
     }
