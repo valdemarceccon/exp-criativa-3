@@ -121,56 +121,71 @@
   <data name="agua" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>agua.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="barco101" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Barcos\Barco 5 Posições\barco101.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="b0101" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\b0101.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="barco102" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Barcos\Barco 5 Posições\barco102.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="b0102" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\b0102.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="barco103" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Barcos\Barco 5 Posições\barco103.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="b0103" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\b0103.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="barco104" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Barcos\Barco 5 Posições\barco104.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="b0104" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\b0104.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="barco105" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Barcos\Barco 5 Posições\barco105.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="b0105" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\b0105.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="barco201" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Barcos\Barco 4 Posições\barco201.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="b0201" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\b0201.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="barco202" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Barcos\Barco 4 Posições\barco202.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="b0202" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\b0202.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="barco203" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Barcos\Barco 4 Posições\barco203.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="b0203" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\b0203.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="barco204" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Barcos\Barco 4 Posições\barco204.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="b0204" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\b0204.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="barco301" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Barcos\Barco 3 Posições\barco301.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="b0301" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\b0301.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="barco302" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Barcos\Barco 3 Posições\barco302.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="b0302" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\b0302.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="barco303" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Barcos\Barco 3 Posições\barco303.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="b0303" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\b0303.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="barco401" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Barcos\Barco 3 Posições 2\barco401.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="b0401" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\b0401.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="barco402" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Barcos\Barco 3 Posições 2\barco402.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="b0402" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\b0402.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="barco403" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Barcos\Barco 3 Posições 2\barco403.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="b0403" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\b0403.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="barco501" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Barcos\Barco 2 Posições\barco501.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="b0501" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\b0501.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="barco502" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Barcos\Barco 2 Posições\barco502.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="b0502" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\b0502.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="barco01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\barco01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="barco02" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\barco02.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="barco03" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\barco03.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="barco04" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\barco04.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="barco05" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\barco05.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="explosão" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\explosão.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
