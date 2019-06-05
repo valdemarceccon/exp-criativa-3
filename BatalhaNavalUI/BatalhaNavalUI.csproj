@@ -67,6 +67,8 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="GameLogic.cs" />
+    <Compile Include="Player.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
@@ -154,12 +156,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\splash.gif" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\BatalhaNavalGameLogic\BatalhaNavalGameLogic.csproj">
-      <Project>{90236bf5-b0ec-4491-95b7-0627a9b4305c}</Project>
-      <Name>BatalhaNavalGameLogic</Name>
-    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">

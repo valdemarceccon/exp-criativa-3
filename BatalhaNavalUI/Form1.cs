@@ -38,33 +38,43 @@ namespace BatalhaNavalUI
                 for (int y = 0; y < 10; y++)
                 {
                     grid.Padding = new Padding { All = 0 };
-                    Button celula = CreateCelula(player, tamanhoCelula, x, y);
-                    //CelulaBatalhaNaval celula = new CelulaBatalhaNaval(x,y);
+                    PictureBox celula = CreateCelula(player, tamanhoCelula, x, y);
                     celula.Size = tamanhoCelula;
                     grid.Controls.Add(celula, x, y);
                 }
             }
         }
 
-        public Button CreateCelula(Player player, Size tamanho, int x, int y)
+        public PictureBox CreateCelula(Player player, Size tamanho, int x, int y)
         {
-            Button btn = new Button();
-            btn.FlatStyle = FlatStyle.Flat;
-            btn.FlatAppearance.MouseOverBackColor = Color.Transparent;
-            btn.FlatAppearance.MouseDownBackColor = Color.Transparent;
-            btn.FlatAppearance.BorderSize = 0;
+            PictureBox btn = new PictureBox();
             btn.BackColor = Color.Transparent;
             btn.Size = tamanho;
 
             btn.Click += (o, s) => atirar(player, btn, x, y);
-
-            btn.MouseEnter += (o, s) => { btn.BackColor = Color.Red; };
-            btn.MouseLeave += (o, s) => { btn.BackColor = Color.Transparent; };
+            btn.MouseEnter += (o, s) => btn.BackColor = Color.Red;
+            btn.MouseLeave += (o, s) => btn.BackColor = Color.Transparent;
+            btn.AllowDrop = true;
+            btn.DragEnter += pictureBox2_DragEnter;
+            btn.DragDrop += pictureBox2_DragDrop;
 
             return btn;
         }
 
-        public void atirar(Player player, Button btn, int x, int y)
+        void pictureBox2_DragEnter(object sender, DragEventArgs e)
+        {
+            if (e.Data.GetDataPresent(DataFormats.Bitmap))
+                e.Effect = DragDropEffects.Move;
+        }
+
+        void pictureBox2_DragDrop(object sender, DragEventArgs e)
+        {
+            var bmp = (Bitmap)e.Data.GetData(DataFormats.Bitmap);
+            ((PictureBox)sender).Image = bmp;
+            //pictureBox2.Image = bmp;
+        }
+
+        public void atirar(Player player, PictureBox btn, int x, int y)
         {
             if (player.temBarco(x, y))
             {
@@ -73,6 +83,21 @@ namespace BatalhaNavalUI
             else
             {
                 btn.Image = BatalhaNavalUI.Properties.Resources.splash;
+            }
+        }
+
+        private void TableLayoutPanel1_DragDrop(object sender, DragEventArgs e)
+        {
+            Console.WriteLine();
+        }
+
+        private void PictureBox1_MouseDown(object sender, MouseEventArgs e)
+        {
+            var img = pictureBox1.Image;
+            if (img == null) return;
+            if (DoDragDrop(img, DragDropEffects.Move) == DragDropEffects.Move)
+            {
+                
             }
         }
     }

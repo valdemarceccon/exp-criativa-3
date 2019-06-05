@@ -179,23 +179,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Valdemar Ceccon\\.nuget\\packages\\": {},
+    "C:\\Users\\Valdemar\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Valdemar Ceccon\\Source\\Repos\\exp-criativa-3\\BatalhaNavalGameLogic\\BatalhaNavalGameLogic.csproj",
+      "projectUniqueName": "C:\\Users\\Valdemar\\source\\repos\\BatalhaNaval\\BatalhaNavalGameLogic\\BatalhaNavalGameLogic.csproj",
       "projectName": "BatalhaNavalGameLogic",
-      "projectPath": "C:\\Users\\Valdemar Ceccon\\Source\\Repos\\exp-criativa-3\\BatalhaNavalGameLogic\\BatalhaNavalGameLogic.csproj",
-      "packagesPath": "C:\\Users\\Valdemar Ceccon\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Valdemar Ceccon\\Source\\Repos\\exp-criativa-3\\BatalhaNavalGameLogic\\obj\\",
+      "projectPath": "C:\\Users\\Valdemar\\source\\repos\\BatalhaNaval\\BatalhaNavalGameLogic\\BatalhaNavalGameLogic.csproj",
+      "packagesPath": "C:\\Users\\Valdemar\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Valdemar\\source\\repos\\BatalhaNaval\\BatalhaNavalGameLogic\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Valdemar Ceccon\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Valdemar\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

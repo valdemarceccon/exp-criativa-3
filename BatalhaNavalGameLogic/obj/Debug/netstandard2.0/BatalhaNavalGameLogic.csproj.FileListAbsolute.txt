@@ -7,3 +7,12 @@ C:\Users\Valdemar Ceccon\Source\Repos\exp-criativa-3\BatalhaNavalGameLogic\obj\D
 C:\Users\Valdemar Ceccon\Source\Repos\exp-criativa-3\BatalhaNavalGameLogic\obj\Debug\netstandard2.0\BatalhaNavalGameLogic.AssemblyInfo.cs
 C:\Users\Valdemar Ceccon\Source\Repos\exp-criativa-3\BatalhaNavalGameLogic\obj\Debug\netstandard2.0\BatalhaNavalGameLogic.dll
 C:\Users\Valdemar Ceccon\Source\Repos\exp-criativa-3\BatalhaNavalGameLogic\obj\Debug\netstandard2.0\BatalhaNavalGameLogic.pdb
+C:\Users\Valdemar\source\repos\BatalhaNaval\BatalhaNavalGameLogic\bin\Debug\netstandard2.0\BatalhaNavalGameLogic.deps.json
+C:\Users\Valdemar\source\repos\BatalhaNaval\BatalhaNavalGameLogic\bin\Debug\netstandard2.0\BatalhaNavalGameLogic.dll
+C:\Users\Valdemar\source\repos\BatalhaNaval\BatalhaNavalGameLogic\bin\Debug\netstandard2.0\BatalhaNavalGameLogic.pdb
+C:\Users\Valdemar\source\repos\BatalhaNaval\BatalhaNavalGameLogic\obj\Debug\netstandard2.0\BatalhaNavalGameLogic.csprojAssemblyReference.cache
+C:\Users\Valdemar\source\repos\BatalhaNaval\BatalhaNavalGameLogic\obj\Debug\netstandard2.0\BatalhaNavalGameLogic.csproj.CoreCompileInputs.cache
+C:\Users\Valdemar\source\repos\BatalhaNaval\BatalhaNavalGameLogic\obj\Debug\netstandard2.0\BatalhaNavalGameLogic.AssemblyInfoInputs.cache
+C:\Users\Valdemar\source\repos\BatalhaNaval\BatalhaNavalGameLogic\obj\Debug\netstandard2.0\BatalhaNavalGameLogic.AssemblyInfo.cs
+C:\Users\Valdemar\source\repos\BatalhaNaval\BatalhaNavalGameLogic\obj\Debug\netstandard2.0\BatalhaNavalGameLogic.dll
+C:\Users\Valdemar\source\repos\BatalhaNaval\BatalhaNavalGameLogic\obj\Debug\netstandard2.0\BatalhaNavalGameLogic.pdb
