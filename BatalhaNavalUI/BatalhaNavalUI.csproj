@@ -102,57 +102,6 @@
     <None Include="Properties\agua.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Properties\Barcos\Barco 2 Posições\barco501.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Properties\Barcos\Barco 2 Posições\barco502.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Properties\Barcos\Barco 3 Posições\barco301.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Properties\Barcos\Barco 3 Posições\barco302.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Properties\Barcos\Barco 3 Posições\barco303.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Properties\Barcos\Barco 3 Posições 2\barco401.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Properties\Barcos\Barco 3 Posições 2\barco402.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Properties\Barcos\Barco 3 Posições 2\barco403.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Properties\Barcos\Barco 4 Posições\barco201.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Properties\Barcos\Barco 4 Posições\barco202.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Properties\Barcos\Barco 4 Posições\barco203.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Properties\Barcos\Barco 4 Posições\barco204.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Properties\Barcos\Barco 5 Posições\barco101.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Properties\Barcos\Barco 5 Posições\barco102.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Properties\Barcos\Barco 5 Posições\barco103.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Properties\Barcos\Barco 5 Posições\barco104.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Properties\Barcos\Barco 5 Posições\barco105.png" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\ezgif.com-gif-maker.gif" />
   </ItemGroup>
   <ItemGroup>
@@ -172,6 +121,72 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\explosão.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\b0501.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\b0502.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\barco05.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\b0301.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\b0302.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\b0303.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\barco03.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\b0401.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\b0402.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\b0403.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\barco04.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\b0201.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\b0202.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\b0203.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\b0204.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\barco02.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\b0101.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\b0102.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\b0103.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\b0104.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\b0105.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\barco01.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

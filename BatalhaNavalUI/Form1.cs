@@ -38,14 +38,14 @@ namespace BatalhaNavalUI
                 for (int y = 0; y < 10; y++)
                 {
                     grid.Padding = new Padding { All = 0 };
-                    PictureBox celula = CreateCelula(player, tamanhoCelula, x, y);
+                    PictureBox celula = CreateCelula(grid, player, tamanhoCelula, x, y);
                     celula.Size = tamanhoCelula;
                     grid.Controls.Add(celula, x, y);
                 }
             }
         }
 
-        public PictureBox CreateCelula(Player player, Size tamanho, int x, int y)
+        public PictureBox CreateCelula(TableLayoutPanel grid, Player player, Size tamanho, int x, int y)
         {
             PictureBox btn = new PictureBox();
             btn.BackColor = Color.Transparent;
@@ -57,7 +57,7 @@ namespace BatalhaNavalUI
             btn.MouseLeave += (o, s) => btn.BackColor = Color.Transparent;
             btn.AllowDrop = true;
             btn.DragEnter += pictureBox2_DragEnter;
-            btn.DragDrop += pictureBox2_DragDrop;
+            btn.DragDrop += (o,s) => dropBarco(grid, btn, x, y);
 
             return btn;
         }
@@ -68,11 +68,38 @@ namespace BatalhaNavalUI
                 e.Effect = DragDropEffects.Move;
         }
 
+        void dropBarco(TableLayoutPanel tb, PictureBox pb, int x, int y)
+        {
+            PictureBox pb1 = criaImagemParteBarco(BatalhaNavalUI.Properties.Resources.b0101);
+            PictureBox pb2 = criaImagemParteBarco(BatalhaNavalUI.Properties.Resources.b0102);
+            PictureBox pb3 = criaImagemParteBarco(BatalhaNavalUI.Properties.Resources.b0103);
+            PictureBox pb4 = criaImagemParteBarco(BatalhaNavalUI.Properties.Resources.b0104);
+            PictureBox pb5 = criaImagemParteBarco(BatalhaNavalUI.Properties.Resources.b0105);
+            tb.Controls.Add(pb1, x, y);
+            tb.Controls.Add(pb2, x+1, y);
+            tb.Controls.Add(pb3, x+2, y);
+            tb.Controls.Add(pb4, x+3, y);
+            tb.Controls.Add(pb5, x+4, y);
+
+        }
+
+        private PictureBox criaImagemParteBarco(Bitmap b0101)
+        {
+            PictureBox pb = new PictureBox();
+            pb.SizeMode = PictureBoxSizeMode.StretchImage;
+            pb.Image = b0101;
+            pb.Size = new Size { Height = 40, Width = 40 };
+            return pb;
+        }
+
         void pictureBox2_DragDrop(object sender, DragEventArgs e)
         {
             var bmp = (Bitmap)e.Data.GetData(DataFormats.Bitmap);
+            if (sender == barco1)
+            {
+                
+            }
             ((PictureBox)sender).Image = bmp;
-            //pictureBox2.Image = bmp;
         }
 
         public void atirar(Player player, PictureBox btn, int x, int y)
@@ -94,7 +121,7 @@ namespace BatalhaNavalUI
 
         private void PictureBox1_MouseDown(object sender, MouseEventArgs e)
         {
-            var img = pictureBox1.Image;
+            var img = barco1.Image;
             if (img == null) return;
             if (DoDragDrop(img, DragDropEffects.Move) == DragDropEffects.Move)
             {
