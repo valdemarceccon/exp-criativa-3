@@ -27,7 +27,6 @@ namespace BatalhaNavalUI
             Player1 = new Player();
             Player2 = new Player();
             PreparaGrid(this.tableLayoutPanel1, Player1);
-            PreparaGrid(this.tableLayoutPanel2, Player2);
         }
 
         private void PreparaGrid(TableLayoutPanel grid, Player player)
@@ -96,7 +95,7 @@ namespace BatalhaNavalUI
 
         private void PictureBox1_MouseDown(object sender, MouseEventArgs e)
         {
-            var img = pictureBox1.Image;
+            var img = barco1.Image;
 
             
             
@@ -113,16 +112,18 @@ namespace BatalhaNavalUI
         private void B_rotacao_Click(object sender, EventArgs e)
         {
             vertical = !vertical;
+            Size novoTamanho = new Size { Height = barco1.Size.Width, Width = barco1.Size.Height };
+            barco1.Size = novoTamanho;
 
             if (vertical == true)
             {
-                pictureBox1.Image.RotateFlip(RotateFlipType.Rotate90FlipNone);
+                barco1.Image.RotateFlip(RotateFlipType.Rotate90FlipNone);
             }
             if (vertical == false)
             {
-                pictureBox1.Image.RotateFlip(RotateFlipType.Rotate270FlipNone);
+                barco1.Image.RotateFlip(RotateFlipType.Rotate270FlipNone);
             }
-            pictureBox1.Refresh();
+            barco1.Refresh();
 
         }
     }
