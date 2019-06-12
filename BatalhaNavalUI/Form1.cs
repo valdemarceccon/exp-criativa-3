@@ -127,7 +127,8 @@ namespace BatalhaNavalUI
             Image barco = getBarco(p);
             if (barco != null)
             {
-                btn.Image = barco;
+                //btn.Image = barco;
+                btn.BackColor = Color.Green;
             }
             else
             {
