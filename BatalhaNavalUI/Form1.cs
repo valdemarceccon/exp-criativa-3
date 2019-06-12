@@ -7,14 +7,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using BatalhaNavalGameLogic;
 
 namespace BatalhaNavalUI
 {
     public partial class Form1 : Form
     {
-        public Player Player1 { get; set; }
-        public Player Player2 { get; set; }
+
+        Random random = new Random();
+
+        List<Barco> barcos;
 
 
         public Form1()
@@ -24,12 +25,47 @@ namespace BatalhaNavalUI
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            Player1 = new Player();
-            Player2 = new Player();
-            PreparaGrid(this.tableLayoutPanel1, Player1);
+            iniciarJogo();          
         }
 
-        private void PreparaGrid(TableLayoutPanel grid, Player player)
+        private void iniciarJogo()
+        {
+
+            //limpaTabuleiro();
+            PreparaGrid(this.tableLayoutPanel1);
+            barcos = new List<Barco>();
+            List<List<Image>> imageBarcos = new List<List<Image>>() {
+                new List<Image>() { BatalhaNavalUI.Properties.Resources.b0101, BatalhaNavalUI.Properties.Resources.b0102, BatalhaNavalUI.Properties.Resources.b0103, BatalhaNavalUI.Properties.Resources.b0104, BatalhaNavalUI.Properties.Resources.b0105 },
+                new List<Image>() { BatalhaNavalUI.Properties.Resources.b0201, BatalhaNavalUI.Properties.Resources.b0202, BatalhaNavalUI.Properties.Resources.b0203, BatalhaNavalUI.Properties.Resources.b0204 },
+                new List<Image>() { BatalhaNavalUI.Properties.Resources.b0301, BatalhaNavalUI.Properties.Resources.b0302, BatalhaNavalUI.Properties.Resources.b0303 },
+                new List<Image>() { BatalhaNavalUI.Properties.Resources.b0401, BatalhaNavalUI.Properties.Resources.b0402, BatalhaNavalUI.Properties.Resources.b0403 },
+                new List<Image>() { BatalhaNavalUI.Properties.Resources.b0501, BatalhaNavalUI.Properties.Resources.b0502 },
+            };
+
+            foreach (List<Image> barco in imageBarcos)
+            {
+                Barco novoBarco = criarBarcoRandomico(barco.Count, barco);
+                barcos.Add(novoBarco);
+            }
+
+        }
+
+        private Barco criarBarcoRandomico(int tamanho, List<Image> imagem)
+        {
+            int x1 = random.Next(10);
+            int y1 = random.Next(10);
+            Point origin = new Point(x1, y1);
+            Horientacao horientacao = randomHorientacao();
+            return new Barco(origin, tamanho, imagem, horientacao);
+        }
+
+        private Horientacao randomHorientacao()
+        {
+            Array values = Enum.GetValues(typeof(Horientacao));
+            return (Horientacao)values.GetValue(random.Next(values.Length));
+        }
+
+        private void PreparaGrid(TableLayoutPanel grid)
         {
             var tamanhoCelula = new Size { Height = tableLayoutPanel1.Size.Height / 10, Width = tableLayoutPanel1.Size.Width / 10 };
             for (int x = 0; x < 10; x++)
@@ -37,23 +73,36 @@ namespace BatalhaNavalUI
                 for (int y = 0; y < 10; y++)
                 {
                     grid.Padding = new Padding { All = 0 };
-                    PictureBox celula = CreateCelula(player, tamanhoCelula, x, y);
+                    PictureBox celula = CreateCelula(tamanhoCelula, new Point { X = x, Y = y });
                     celula.Size = tamanhoCelula;
                     grid.Controls.Add(celula, x, y);
                 }
             }
         }
 
-        public PictureBox CreateCelula(Player player, Size tamanho, int x, int y)
+        private Image getBarco(Point p)
+        {
+
+            foreach (Barco barco in barcos)
+            {
+                Image image = barco.acertou(p);
+                if (image != null)
+                {
+                    return image;
+                }
+            }
+
+            return null;
+        }
+
+        public PictureBox CreateCelula(Size tamanho, Point p)
         {
             PictureBox btn = new PictureBox();
             btn.BackColor = Color.Transparent;
             btn.Size = tamanho;
             btn.SizeMode = PictureBoxSizeMode.StretchImage;
 
-            btn.Click += (o, s) => atirar(player, btn, x, y);
-            btn.MouseEnter += (o, s) => btn.BackColor = Color.Red;
-            btn.MouseLeave += (o, s) => btn.BackColor = Color.Transparent;
+            btn.Click += (o, s) => atirar(btn, p);
             btn.AllowDrop = true;
             btn.DragEnter += pictureBox2_DragEnter;
             btn.DragDrop += pictureBox2_DragDrop;
@@ -71,18 +120,18 @@ namespace BatalhaNavalUI
         {
             var bmp = (Bitmap)e.Data.GetData(DataFormats.Bitmap);
             ((PictureBox)sender).Image = bmp;
-            //pictureBox2.Image = bmp;
         }
 
-        public void atirar(Player player, PictureBox btn, int x, int y)
+        public void atirar(PictureBox btn, Point p)
         {
-            if (player.temBarco(x, y))
+            Image barco = getBarco(p);
+            if (barco != null)
             {
-                btn.Image = BatalhaNavalUI.Properties.Resources.explosão;
+                btn.Image = barco;
             }
             else
             {
-                btn.Image = BatalhaNavalUI.Properties.Resources.splash;
+                btn.BackColor = Color.Red;
             }
         }
 
@@ -125,6 +174,11 @@ namespace BatalhaNavalUI
             }
             barco1.Refresh();
 
+        }
+
+        private void Reiniciar_Click(object sender, EventArgs e)
+        {
+            iniciarJogo();
         }
     }
 }
